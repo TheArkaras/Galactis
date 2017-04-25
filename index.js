@@ -39,7 +39,7 @@ function dowork() {
 
 function GiveUserPoints(user)
 {
-  revloClient.GiveUserPoints(user.userName, 5);
+  revloClient.GiveUserPoints(user.twitchName, 5);
 }
 
 function FailedToFindUser(user)
